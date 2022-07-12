@@ -1,6 +1,6 @@
 package com.codebandit.authsimplified.implementations.security.jwt;
 
-import com.codebandit.authsimplified.implementables.dto.SimpleIdentity;
+import com.codebandit.authsimplified.abstractions.dto.SimpleIdentity;
 import org.springframework.security.core.GrantedAuthority;
 
 import java.util.HashMap;

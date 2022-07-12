@@ -1,6 +1,6 @@
-package com.codebandit.authsimplified.implementables.services;
+package com.codebandit.authsimplified.abstractions.services;
 
-import com.codebandit.authsimplified.implementables.dto.SimpleIdentity;
+import com.codebandit.authsimplified.abstractions.dto.SimpleIdentity;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 public interface UserIdentityService {

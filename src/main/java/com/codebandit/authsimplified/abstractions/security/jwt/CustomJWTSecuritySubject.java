@@ -1,6 +1,6 @@
-package com.codebandit.authsimplified.implementables.security.jwt;
+package com.codebandit.authsimplified.abstractions.security.jwt;
 
-import com.codebandit.authsimplified.implementables.dto.SimpleIdentity;
+import com.codebandit.authsimplified.abstractions.dto.SimpleIdentity;
 import com.codebandit.authsimplified.implementations.security.jwt.JWTSecuritySubject;
 
 import java.util.Map;

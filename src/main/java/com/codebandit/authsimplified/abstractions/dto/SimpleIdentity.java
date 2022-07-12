@@ -1,4 +1,4 @@
-package com.codebandit.authsimplified.implementables.dto;
+package com.codebandit.authsimplified.abstractions.dto;
 
 import com.codebandit.authsimplified.implementations.dto.RBACAuthority;
 

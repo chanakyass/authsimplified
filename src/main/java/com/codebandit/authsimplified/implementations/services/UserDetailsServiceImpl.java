@@ -1,7 +1,7 @@
 package com.codebandit.authsimplified.implementations.services;
 
-import com.codebandit.authsimplified.implementables.dto.SimpleIdentity;
-import com.codebandit.authsimplified.implementables.services.UserIdentityService;
+import com.codebandit.authsimplified.abstractions.dto.SimpleIdentity;
+import com.codebandit.authsimplified.abstractions.services.UserIdentityService;
 import com.codebandit.authsimplified.implementations.dto.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

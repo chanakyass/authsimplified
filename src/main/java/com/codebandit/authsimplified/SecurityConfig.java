@@ -1,7 +1,7 @@
 package com.codebandit.authsimplified;
 
-import com.codebandit.authsimplified.implementables.services.SecureResourceService;
-import com.codebandit.authsimplified.implementables.services.UserIdentityService;
+import com.codebandit.authsimplified.abstractions.services.SecureResourceService;
+import com.codebandit.authsimplified.abstractions.services.UserIdentityService;
 import com.codebandit.authsimplified.implementations.security.jwt.JwtTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

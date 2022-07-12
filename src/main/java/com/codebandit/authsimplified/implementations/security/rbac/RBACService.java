@@ -2,10 +2,10 @@ package com.codebandit.authsimplified.implementations.security.rbac;
 
 import com.codebandit.authsimplified.enums.RBACAuthorityType;
 import com.codebandit.authsimplified.exceptions.SecureResourceNotFoundException;
-import com.codebandit.authsimplified.implementables.services.SecureResourceService;
+import com.codebandit.authsimplified.abstractions.services.SecureResourceService;
 import com.codebandit.authsimplified.implementations.dto.RBACAuthority;
-import com.codebandit.authsimplified.implementables.dto.SecureResource;
-import com.codebandit.authsimplified.implementables.dto.SimpleIdentity;
+import com.codebandit.authsimplified.abstractions.dto.SecureResource;
+import com.codebandit.authsimplified.abstractions.dto.SimpleIdentity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

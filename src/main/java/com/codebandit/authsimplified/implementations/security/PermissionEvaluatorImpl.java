@@ -1,7 +1,7 @@
 package com.codebandit.authsimplified.implementations.security;
 
 import com.codebandit.authsimplified.enums.Permission;
-import com.codebandit.authsimplified.implementables.dto.SecureResource;
+import com.codebandit.authsimplified.abstractions.dto.SecureResource;
 import com.codebandit.authsimplified.implementations.security.rbac.RBACService;
 import com.codebandit.authsimplified.implementations.dto.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
